@@ -52,6 +52,7 @@ body {
 
 .nav {
     text-align: center;
+    margin: 10px 0 0 0;
 }
 
 .nav-link {
@@ -62,6 +63,23 @@ body {
     border: 1px solid #000;
     transition: background-color .2s linear;
     width: 150px;
+    margin-bottom: 10px;
+}
+
+.nav-link-reg {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    transition: background-color .2s linear;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.nav-link-reg:hover {
+    background-color: #423e3e;
+    transition: background-color .2s linear;
 }
 
 .nav-link:hover {
@@ -147,4 +165,33 @@ body {
 
 .video {
     height: 406px;
+}
+
+.form-title {
+    text-align: center;
+    border: 5px solid black;
+    margin: 0 100px;
+    padding: 0 20px 0 20px;
+}
+
+.reg-inputs {
+    margin: 10px 313px 0 313px;
+}
+
+.reg-select {
+    margin: 0px 313px;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+.textarea {
+    margin: 10px 0;
+    width: 172px;
+    height: 96px;
+}
+
+.reg-choose {
+    margin: 10px 313px 0 313px;;
 }
