@@ -30,10 +30,23 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1024px;
     margin: 0 auto;
     border: 5px solid #000;
     background-color: #1F1F1F;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-bar {
+    width: 29%;
+    border-left: 2px solid white;
+    margin: 10px 0;
+    padding: 0 20px;
+    text-align: justify;
 }
 
 .header {
@@ -97,7 +110,17 @@ body {
 }
 
 .content {
+    width: 70%;
     padding: 20px;
+}
+
+.reg .content {
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
 }
 
 .content-title {
@@ -156,7 +179,7 @@ body {
     border-bottom: 3px solid black;
 }
 
-.game-photo {
+.game-photo {;
     height: 333px;
 }
 
@@ -173,6 +196,7 @@ body {
 }
 
 .video {
+    width: 100%;
     height: 406px;
 }
 
@@ -214,7 +238,6 @@ body {
     margin: 10px 0;
     padding: 8px 15px;
     text-align: center;
-    border: none;
     border: 1px solid #444;
     background: linear-gradient(#333, #222);
 }
